@@ -69,7 +69,7 @@ include_once "include/processamento.php";
  	$CalTemp = filter_input(INPUT_GET,'calendar',FILTER_SANITIZE_STRING);
 	switch( $CalTemp ) {
 			case "recent":
-					$CalTemp = GetLastcalendars(5);
+					$CalTemp = GetLastcalendars(LastCalendars);
 					if( $CalTemp["Total"] > 0 ) {
 						 $_SESSION['CalendariosRecentes'] = $CalTemp; 
 					} 

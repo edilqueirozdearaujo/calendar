@@ -34,6 +34,7 @@
 	$cFdCalStatsCal    = "Calendar";
 	
 	define("cMapillaryKeySeparator",",");
+	define("LastCalendars",10);
 	
 
 
