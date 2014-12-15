@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="128"
+   height="128.00002"
+   id="svg3390">
+  <defs
+     id="defs3392">
+    <inkscape:path-effect
+       effect="construct_grid"
+       id="path-effect3175-4" />
+  </defs>
+  <metadata
+     id="metadata3395">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-399.42384,-644.93833)"
+     id="layer1">
+    <g
+       transform="matrix(2.7311565,0,0,2.7311565,398.12886,644.43432)"
+       id="g3319-0">
+      <rect
+         width="46.866592"
+         height="46.866596"
+         ry="5.9854341"
+         x="0.474152"
+         y="0.18454181"
+         id="rect2986-3-6"
+         style="fill:none;stroke:none" />
+      <g
+         transform="matrix(0.98106369,0,0,0.98106369,0.07527126,0.7652262)"
+         id="g3069-9">
+        <rect
+           width="40.00169"
+           height="31.755728"
+           ry="4.055593"
+           x="4.4059348"
+           y="8.2238312"
+           id="rect2986-6"
+           style="fill:#ffffff;fill-opacity:0.81568627;stroke:#1a1a1a;stroke-width:0.86193031;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           d="m 8.5289165,8.0190137 31.7557295,0 c 2.397601,0 4.327799,1.9301983 4.327799,4.3277983 l -0.0089,4.327799 -40.3934325,0 -0.00895,-4.327799 c 1e-7,-2.040144 1.9301984,-4.3277983 4.327799,-4.3277983 z"
+           id="rect2986-1-9"
+           style="fill:#808080;fill-opacity:0.81568627;stroke:#1a1a1a;stroke-width:0.45229527;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+        <text
+           x="17.035339"
+           y="15.161328"
+           id="text57094-5"
+           xml:space="preserve"
+           style="font-size:7.02131701px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+             x="17.035339"
+             y="15.161328"
+             id="tspan57096-7"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">2015<tspan
+   x="17.035339"
+   y="15.161328"
+   id="tspan57098-7"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold" /></tspan></text>
+        <path
+           d="m 41.257762,18.683567 -33.059848,0 m 33.059848,6.390682 -33.059848,0 m 33.059848,6.390682 -33.059848,0 m 33.059848,6.390682 -33.059848,0 m 33.059848,-19.172046 0,19.172046 M 32.9928,18.683567 l 0,19.172046 m -8.264962,-19.172046 0,19.172046 m -8.264962,-19.172046 0,19.172046 m -8.264962,-19.172046 0,19.172046"
+           id="rect3172-7"
+           style="fill:none;stroke:#666666;stroke-width:0.56616729;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+        <path
+           d="m 8.4004836,19.3279 32.7210054,0"
+           id="path3126"
+           style="fill:none;stroke:#666666;stroke-width:1.02561641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           d="m 8.4004834,25.787632 32.7210056,0"
+           id="path3126-8"
+           style="fill:none;stroke:#666666;stroke-width:1.02561641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           d="m 8.4004834,32.11062 32.7210056,0"
+           id="path3126-8-6"
+           style="fill:none;stroke:#666666;stroke-width:1.02561641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>
