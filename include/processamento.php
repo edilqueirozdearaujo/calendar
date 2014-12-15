@@ -88,7 +88,7 @@ function PremontarCalendario($ID,$CalendarType,$Pais){
   $OK = TRUE;
   $CalendarioTemp = array();
   function CalendarUnit($ID,$Tipo,$Pais,$Indice) {
-		$QRCodeW = 5;
+		$QRCodeW = 6;
 		$URL = GetMapillaryImgURL($ID);
 	   $TempDir = "temp/mapillary/";
 
