@@ -19,12 +19,13 @@ $Msg['pt']['Part2Next']          = "Avançar";
 $Msg['pt']['BtnExit']            = "Sair";
 $Msg['pt']['PrintTip']           = "Para um melhor resultado, imprimir em folha A4 em orientação retrato (vertical). Ao clicar no botão <b>Imprimir</b>, somente o que estiver dentro da folha abaixo será imprimido.";
 $Msg['pt']['BtnPrint']           = "Imprimir";
-$Msg['pt']['CreditosMapillary']  = "<img class='alinhar-vertical' src='imagens/cc.png' /> As fotos do Mapillary estão disponíveis sob a Licença Creative Commons Attribution-Share Alike 4.0 Internacional (CC BY-SA 4.0). Saiba mais em <a href='http://www.mapillary.com/legal.html'>http://www.mapillary.com/legal.html</a>.";
+$Msg['pt']['CreditosMapillary']  = "As fotos do Mapillary estão disponíveis sob a Licença Creative Commons Attribution-Share Alike 4.0 Internacional (CC BY-SA 4.0). Saiba mais em <a href='http://www.mapillary.com/legal.html'>http://www.mapillary.com/legal.html</a>.";
 $Msg['pt']['Creditos']           = "Faça seu próprio calendário em <b>projetorgm.com.br/calendario</b>.";
 $Msg['pt']['ErrNoCalendarFound'] = "Esse calendário não existe.";
 $Msg['pt']['CalIDInfo']          = "Código: ";
 $Msg['pt']['ShareMsg']           = "Compartilhar este calendário:";
-$Msg['pt']['MostRecent']           = "Confira os mais recentes calendários...";
+$Msg['pt']['MostRecent']         = "Confira os mais recentes calendários...";
+$Msg['pt']['GetSource']          = "<a href='https://github.com/edilqueirozdearaujo/calendar'> código-fonte</a>";
 
 
 
@@ -45,12 +46,13 @@ $Msg['en']['Part2Next']             = "Next";
 $Msg['en']['BtnExit']               = "Exit";
 $Msg['en']['PrintTip']              = "For best results, print on A4 paper in portrait (vertical). By clicking the <b>Print</b> button, only what is inside the sheet below will be printed.";
 $Msg['en']['BtnPrint']              = "Print";
-$Msg['en']['CreditosMapillary']     = "<img class='alinhar-vertical' src='imagens/cc.png' /> Mapillary Photos are available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). Learn more at <a href='http://www.mapillary.com/legal.html'>http://www.mapillary.com/legal.html</a>.";
+$Msg['en']['CreditosMapillary']     = "Mapillary Photos are available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). Learn more at <a href='http://www.mapillary.com/legal.html'>http://www.mapillary.com/legal.html</a>.";
 $Msg['en']['Creditos']              = "Create your own calendar in <b>projetorgm.com.br/calendario</b>.";
 $Msg['en']['ErrNoCalendarFound']    = "This calendar does not exist.";
 $Msg['en']['CalIDInfo']             = "ID: ";
 $Msg['en']['ShareMsg']              = "Share this calendar:";
 $Msg['en']['MostRecent']            = "Check out the latest Calendars...";
+$Msg['en']['GetSource']             = "<a href='https://github.com/edilqueirozdearaujo/calendar'> source</a>";
 
 
 $Msg['es']['SiteTitle']          = "Calendario 2015 con Mapillary fotos | Proyecto RGM";
@@ -70,12 +72,13 @@ $Msg['es']['Part2Next']          = "Avanzar";
 $Msg['es']['BtnExit']            = "Desconectar";
 $Msg['es']['PrintTip']           = "Para obtener los mejores resultados, imprima en papel A4 en vertical (vertical). Al hacer clic en el botón <b> Imprimir </b>, sólo lo que está dentro de la hoja de abajo será impreso.";
 $Msg['es']['BtnPrint']           = "Imprimir";
-$Msg['es']['CreditosMapillary']  = "<img class='alinhar-vertical' src='imagens/cc.png' /> Las fotos Mapillary están disponibles bajo la Creative Commons Attribution-Share Alike 4.0 Internacional (CC BY-SA 4.0) licencia. Obtenga más información en <a href='http://www.mapillary.com/legal.html'>http://www.mapillary.com/legal.html</a>.";
+$Msg['es']['CreditosMapillary']  = "Las fotos Mapillary están disponibles bajo la Creative Commons Attribution-Share Alike 4.0 Internacional (CC BY-SA 4.0) licencia. Obtenga más información en <a href='http://www.mapillary.com/legal.html'>http://www.mapillary.com/legal.html</a>.";
 $Msg['es']['Creditos']           = "Haga su propio calendario <b>projetorgm.com.br/calendario</b>.";
 $Msg['es']['ErrNoCalendarFound'] = "Este calendario no existe.";
 $Msg['es']['CalIDInfo']          = "Código: ";
 $Msg['es']['ShareMsg']           = "Compartir este calendario:";
 $Msg['es']['MostRecent']         = "Echa un vistazo a las últimas calendarios...";
+$Msg['es']['GetSource']          = "<a href='https://github.com/edilqueirozdearaujo/calendar'> código fuente</a>";
 
 
 

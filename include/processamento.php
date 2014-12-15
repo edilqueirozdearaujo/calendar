@@ -311,8 +311,8 @@ function DrawHeader($MinhaURL) {
 
 function Footer() {
    Linha("	<div class='footer'>");
-   Linha("		<p class='alinhar-centro'>Beta version by ".cSiteRGM." | <a href='https://drive.google.com/file/d/0ByBgfQ7MLARZMzdVWTk4aWdFTzQ/view?usp=sharing'>get the source</a></p>");
-   Linha("		<p class='alinhar-centro'>".GetMsg('CreditosMapillary')."</p>");
+   Linha("		<p class='alinhar-centro'> " . cSiteRGM . " | <img class='alinhar-vertical' src='imagens/git.png' /> " . GetMsg('GetSource')."</p>");
+   Linha("		<p class='alinhar-centro'> <img class='alinhar-vertical' src='imagens/cc.png' /> ".GetMsg('CreditosMapillary')."</p>");
    Linha("	</div>");
    Linha(" ");									
 }
