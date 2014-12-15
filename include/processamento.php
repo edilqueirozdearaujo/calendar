@@ -1,5 +1,5 @@
 <?
-include_once "phpqrcode/lib/full/qrlib.php";
+include_once "phpqrcode.php";
 
 define("cTypeYear","year");
 define("cTypeHalf","half");
