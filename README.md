@@ -23,6 +23,15 @@ To use, just download the source and configure the data of the MySQL database (t
 Create your own calendar with Mapillary photos
 Shared on hoping to be useful. Use at your own risk. Enjoy!
 
+##Estrutura do banco de dados
+As tabelas devem ter os seguintes campos:
+
+Tabela Calendars
+"ID";"Date";"Time";"SourceKeys";"Type";"Country"
+
+Tabela Stats
+"AutoID";"Date";"Time";"Calendar"
+
 ##LICENSING
 
 Edil Queiroz de Araujo - Projeto RGM 
