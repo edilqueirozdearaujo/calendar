@@ -33,9 +33,7 @@ body{
 .header, .footer{
 	background-color: #4D4D4D;
 	color: #eeeeee;	
-	padding: 2px;	
-	padding-bottom: 1px;	
-	padding-top: 1px;	
+	padding: 5px;	
 }
 	.header a, .footer a{
 		color: #ffffff;

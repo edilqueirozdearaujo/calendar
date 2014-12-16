@@ -291,11 +291,9 @@ function DesenharFormSair($Action) {
    Linha(" ");									
 }
 
-
 function DrawHeader($MinhaURL) {
 	Linha("<div class='header alinhar-direita'>");
-	Linha( "		<h1 class='item-alinhado alinhar-centro' >".GetMsg('IntroTitle')."</h1>" );
-   Linha("		<p class='item-alinhado itempadl' >".cSiteRGM."</p>");
+	Linha( "		<h1 class='item-alinhado alinhar-centro' >".GetMsg('IntroTitle')." </h1>" );
    Linha("		<form id='formlang' class='item-alinhado itempadl' action='$MinhaURL' method='post'>");
    Linha("					<p class='item-alinhado'><img src='imagens/country-translate.png' alt='country...'/></p>");
    Linha("					<div class='item-alinhado langescolha' onclick=\"CheckElement('country-br',true);document.getElementById('formlang').submit();\" ><img src='imagens/country-br.png' title='Brasil, Português' ><br><input hidden='true' id='country-br' type='radio' name='country' value='BR'></div>");									
@@ -310,9 +308,9 @@ function DrawHeader($MinhaURL) {
 
 
 function Footer() {
-   Linha("	<div class='footer'>");
-   Linha("		<p class='alinhar-centro'> " . cSiteRGM . " | <img class='alinhar-vertical' src='imagens/git.png' /> " . GetMsg('GetSource')."</p>");
-   Linha("		<p class='alinhar-centro'> <img class='alinhar-vertical' src='imagens/cc.png' /> ".GetMsg('CreditosMapillary')."</p>");
+   Linha("	<div class='footer alinhar-centro'>");
+   Linha("		<p> " . cSiteRGM . " | <img class='alinhar-vertical' src='imagens/git.png' /> " . GetMsg('GetSource')."</p>");
+   Linha("		<p> <img class='alinhar-vertical' src='imagens/cc.png' /> ".GetMsg('CreditosMapillary')."</p>");
    Linha("	</div>");
    Linha(" ");									
 }
