@@ -172,8 +172,9 @@ include_once "include/processamento.php";
 							$Item = $CalRec[$Cont]; 		
 							$CalendarLink = GetCalendarURL($MinhaURL,ToBase36($Item[$cFdCalID]));
 							$Img = GetDirectURL320($Item[$cFdCalkeys][1]);
-							$ImgInfo = YearFull($Item[$cFdCalType]) .": ". CountryFull($Item[$cFdCalCountry]); 			
-							Linha("<p class='item-alinhado calendarios-recentes'><a href='$CalendarLink'> <img src='$Img' width='128'> <br>" . $ImgInfo ."</a></p>");
+							$ImgInfo = YearFull($Item[$cFdCalType]) .": ". CountryFull($Item[$cFdCalCountry]);
+							$ImgInfo = $ImgInfo . "<br><small>".$Item[$cFdCalStatsDate].", ".$Item[$cFdCalStatsTime]."</small>"; 			
+							Linha("<p class='calendarios-recentes'><a href='$CalendarLink'> <img src='$Img' width='128'> <br>" . $ImgInfo ."</a></p>");
 					}
 			
 			}		

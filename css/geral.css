@@ -158,7 +158,10 @@ body{
 }
 
 .calendarios-recentes{
-	padding: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 6px;
+	margin: 5px;
 	border: solid 1px #cccccc;
 }
 

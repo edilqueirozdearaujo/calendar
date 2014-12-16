@@ -243,7 +243,7 @@ function DesenharForm($Action) {
   		Linha("<p class='showerror'><i>".GetMsg('Part1Browser')."</i></p>");
   	}
    Linha("<hr>");									
-   Linha("<p><a href='".$Action."?calendar=recent'>".GetMsg('MostRecent')."</a></p>");									
+   Linha("<p><a href='".$Action."?calendar=recent'><img src='imagens/favicon.png' class='item-alinhado' > ".GetMsg('MostRecent')."</a></p>");									
    Linha("</form>");									
    Linha(" ");									
 }
