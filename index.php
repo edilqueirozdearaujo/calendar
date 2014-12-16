@@ -165,13 +165,15 @@ include_once "include/processamento.php";
 			if( isset( $_SESSION['CalendariosRecentes'] ) ) {
    				Linha("<h2>".GetMsg('MostRecent')."</h2>");									
 					DesenharFormSair($MinhaURL);		
+					Linha( "<hr>" );
 					$CalRec = $_SESSION['CalendariosRecentes'];
 					$Total = $CalRec['Total'];
 					for( $Cont=0;$Cont < $Total; $Cont++ ) {
 							$Item = $CalRec[$Cont]; 		
 							$CalendarLink = GetCalendarURL($MinhaURL,ToBase36($Item[$cFdCalID]));
-							$Img = GetDirectURL320($Item[$cFdCalkeys][1]);			
-							Linha("<p><a href='$CalendarLink'> <img src='$Img' width='128'> " . $Item[$cFdCalType] .": ". CountryFull($Item[$cFdCalCountry])."</a></p>");
+							$Img = GetDirectURL320($Item[$cFdCalkeys][1]);
+							$ImgInfo = $Item[$cFdCalType] .": ". CountryFull($Item[$cFdCalCountry]); 			
+							Linha("<p class='item-alinhado calendarios-recentes'><a href='$CalendarLink'> <img src='$Img' width='128'> <br>" . $ImgInfo ."</a></p>");
 					}
 			
 			}		

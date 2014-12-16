@@ -157,6 +157,11 @@ body{
   width: 100%;
 }
 
+.calendarios-recentes{
+	padding: 12px;
+	border: solid 1px #cccccc;
+}
+
 .showerror{
 	color: #FE492D;
 }
