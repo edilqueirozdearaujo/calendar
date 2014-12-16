@@ -356,4 +356,5 @@ function FBShare($URL) {
 	Linha("<div class='fb-share-button' data-href='$URL' data-layout='button_count'></div>");
 }
 
+
 ?>

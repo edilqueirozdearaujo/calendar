@@ -26,6 +26,9 @@ $Msg['pt']['CalIDInfo']          = "Código: ";
 $Msg['pt']['ShareMsg']           = "Compartilhar este calendário:";
 $Msg['pt']['MostRecent']         = "Confira os mais recentes calendários...";
 $Msg['pt']['GetSource']          = "<a href='https://github.com/edilqueirozdearaujo/calendar'> código-fonte</a>";
+$Msg['pt']['ctBR']              = "Brasil";
+$Msg['pt']['ctWD']              = "Mundo";
+$Msg['pt']['ctES']              = "Espanha";
 
 
 
@@ -53,6 +56,10 @@ $Msg['en']['CalIDInfo']             = "ID: ";
 $Msg['en']['ShareMsg']              = "Share this calendar:";
 $Msg['en']['MostRecent']            = "Check out the latest Calendars...";
 $Msg['en']['GetSource']             = "<a href='https://github.com/edilqueirozdearaujo/calendar'> source</a>";
+$Msg['en']['ctBR']                  = "Brazil";
+$Msg['en']['ctWD']                  = "World";
+$Msg['en']['ctES']                  = "Spain";
+
 
 
 $Msg['es']['SiteTitle']          = "Calendario 2015 con Mapillary fotos | Proyecto RGM";
@@ -79,6 +86,9 @@ $Msg['es']['CalIDInfo']          = "Código: ";
 $Msg['es']['ShareMsg']           = "Compartir este calendario:";
 $Msg['es']['MostRecent']         = "Echa un vistazo a las últimas calendarios...";
 $Msg['es']['GetSource']          = "<a href='https://github.com/edilqueirozdearaujo/calendar'> código fuente</a>";
+$Msg['es']['ctBR']               = "Brasil";
+$Msg['es']['ctWD']               = "Mundo";
+$Msg['es']['ctES']               = "España";
 
 
 
@@ -141,16 +151,14 @@ function CountryToLanguage($Country) {
 }
 
 function CountryFull($Country) {
-  $Temp = "";  
-  switch( strtoupper($Country) ) {
-		case "BR": $Temp = "Brazil"; break;
-		case "PT": $Temp = "Portugal"; break;
-		case "ES": $Temp = "Spain"; break;
-		case "WD": $Temp = "World"; break;
-  }    
-  return $Temp;
+   $Temp = "ct" . $Country;  
+	return GetMsg($Temp);
 }
 
+function YearFull($Type) {
+	$YearArray = array( "y" => "Type1", "h" => "Type2", "m" => "Type3");
+	return GetMsg($YearArray[$Type]);
+}
 
 
 ?>

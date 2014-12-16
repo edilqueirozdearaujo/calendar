@@ -172,7 +172,7 @@ include_once "include/processamento.php";
 							$Item = $CalRec[$Cont]; 		
 							$CalendarLink = GetCalendarURL($MinhaURL,ToBase36($Item[$cFdCalID]));
 							$Img = GetDirectURL320($Item[$cFdCalkeys][1]);
-							$ImgInfo = $Item[$cFdCalType] .": ". CountryFull($Item[$cFdCalCountry]); 			
+							$ImgInfo = YearFull($Item[$cFdCalType]) .": ". CountryFull($Item[$cFdCalCountry]); 			
 							Linha("<p class='item-alinhado calendarios-recentes'><a href='$CalendarLink'> <img src='$Img' width='128'> <br>" . $ImgInfo ."</a></p>");
 					}
 			
